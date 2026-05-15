@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/apps/configuration#app-configuration
 name: Sendspin Auracast
-version: "0.1.0"
+version: "0.1.1"
 slug: sendspin_auracast
 description: Sendspin Auracast app
 url: "https://github.com/Yagoor/app-sendspin-auracast/tree/main/sendspin_auracast"
@@ -9,6 +9,7 @@ arch:
   - amd64
 uart: true
 init: false
+host_network: true
 options:
   music_assistant_url: "ws://localhost:8927/sendspin"
   transport: "serial:/dev/ttyACM0,1000000"
