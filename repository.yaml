@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/apps/repository#repository-configuration
+name: Sendspin Auracast
+url: 'https://github.com/Yagoor/app_sendspin_auracast'
+maintainer: Yagoor <yago.rosario@hotmail.com.br>

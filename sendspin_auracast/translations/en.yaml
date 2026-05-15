@@ -1,0 +1,13 @@
+configuration:
+  music_assistant_url:
+    name: Music Assistant URL
+    description: The URL of the music assistant stream.
+  transport:
+    name: Transport
+    description: The transport method for the radio stream.
+  extra_args:
+    name: Extra Arguments
+    description: Additional arguments for the radio stream.
+  name:
+    name: Name
+    description: The name of the Auracast transmitter or service.
