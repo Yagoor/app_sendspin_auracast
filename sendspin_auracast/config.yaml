@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/apps/configuration#app-configuration
 name: Sendspin Auracast
-version: "0.1.1"
+version: "0.2.0"
 slug: sendspin_auracast
 description: Sendspin Auracast app
 url: "https://github.com/Yagoor/app-sendspin-auracast/tree/main/sendspin_auracast"
@@ -15,9 +15,11 @@ options:
   transport: "serial:/dev/ttyACM0,1000000"
   extra_args: "--manufacturer-data 87:00000000000000000000000000000000dffd"
   name: "Sendspin Auracast"
+  initial_volume: 100
 schema:
   music_assistant_url: "str?"
   transport: "str?"
   extra_args: "str?"
   name: "str?"
+  initial_volume: "int?"
 image: "ghcr.io/yagoor/app_sendspin_auracast"

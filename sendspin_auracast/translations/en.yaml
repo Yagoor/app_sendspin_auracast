@@ -11,3 +11,6 @@ configuration:
   name:
     name: Name
     description: The name of the Auracast transmitter or service.
+  initial_volume:
+    name: Initial Volume
+    description: The initial volume level for the Auracast transmitter (0-100).

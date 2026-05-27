@@ -16,9 +16,11 @@ music_assistant_url=$(bashio::config 'music_assistant_url')
 transport=$(bashio::config 'transport')
 extra_args=$(bashio::config 'extra_args')
 name=$(bashio::config 'name')
+initial_volume=$(bashio::config 'initial_volume')
 
 # Start the service with the provided configuration
 exec sendspin-auracast ${music_assistant_url} \
     --transport ${transport} \
     --name "${name}" \
+    --initial-volume ${initial_volume} \
     ${extra_args}

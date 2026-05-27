@@ -8,7 +8,7 @@ RUN \
     python3 py3-pip git build-base
 
 RUN pip install --break-system-packages "git+https://github.com/google/liblc3.git@v1.1.3" \
-    sendspin_auracast==0.1.0
+    sendspin_auracast==0.2.2
 
 # Copy root filesystem
 COPY rootfs /
